@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito | Libros</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Delius&display=swap" rel="stylesheet">
+    <link rel="icon" href="/img/iconBook.jpeg">
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="contenido-header">
+            <h1>Libros nuevos-usados</h1>
+            <nav>
+                <ul class="navegacion-principal">
+                    <li><a href="#productos">Productos</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                    <li><a href="#resenas">Reseñas</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section>
+        <div class="imagen">
+            <img src="/img/libreria.jpg" alt="imagen libreria">
+        </div>
+    </section>
+
+    <main id="productos">
+        <h3>Nuestras Sugerencias</h3>
+
+        <div class="productos">
+            <section class="producto">
+                <h2>Lenguaje Java</h2>
+
+                <div class="libros">
+                    <img src="/img/java.webp" alt="libro java">
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum repudiandae modi voluptas.
+                    Architecto, labore autem nobis assumenda dignissimos voluptatum fugiat suscipit voluptatem unde et.
+                </p>
+            </section>
+
+            <section class="producto">
+                <h2>Lenguaje Python</h2>
+
+                <div class="libros">
+                    <img src="/img/python.png" alt="libro python">
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum repudiandae modi voluptas.
+                    Architecto, labore autem nobis assumenda dignissimos voluptatum fugiat suscipit voluptatem unde et.
+                </p>
+            </section>
+
+            <section class="producto">
+                <h2>Lógica de Programación</h2>
+
+                <div class="libros">
+                    <img src="/img/logica.webp" alt="libro logica programacion">
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum repudiandae modi voluptas.
+                    Architecto, labore autem nobis assumenda dignissimos voluptatum fugiat suscipit voluptatem unde et.
+                </p>
+            </section>
+        </div>
+    </main>
+
+    <section id="contacto" class="contacto">
+        <h3>Contacto</h3>
+
+        <div>
+            <form action="https://formspree.io/f/xrbgpelv" method="POST" class="formulario">
+                <div class="campo">
+                    <label for="nombre">Nombre:</label>
+                    <input class="input-text" name="nombre" id="nombre" type="text" placeholder="Tu Nombre" required>
+                </div>
+
+                <div class="campo">
+                    <label for="correo">Correo:</label>
+                    <input class="input-text" name="correo" id="correo" type="email" placeholder="Tu Email" required>
+                </div>
+
+                <div class="campo">
+                    <label for="mensaje">Mensaje</label>
+                    <textarea class="input-text" name="mensaje" id="mensaje"></textarea>
+                </div>
+
+                <div class="campo">
+                    <button type="submit">Enviar</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <section id="resenas" class="resenas">
+        <h3>Reseñas de nuestros clientes</h3>
+
+        <div class="clientes">
+            <section class="cliente">
+                <h2>Patricia Bermudez</h2>
+
+                <div class="cliente-imagen">
+                    <img src="/img/resena1.jpg" alt="perfil cliente">
+                </div>
+                <p>Muy buenos libros, gran variedad, en muy buen estado</p>
+            </section>
+
+            <section class="cliente">
+                <h2>Marcelo Langostini</h2>
+
+                <div class="cliente-imagen">
+                    <img src="/img/resena2.jpg" alt="perfil cliente">
+                </div>
+                <p>Muy buenos libros, gran variedad, en muy buen estado</p>
+            </section>
+
+            <section class="cliente">
+                <h2>Oscar Alvarez</h2>
+
+                <div class="cliente-imagen">
+                    <img src="/img/resena3.jpg" alt="perfil cliente">
+                </div>
+                <p>Muy buenos libros, gran variedad, en muy buen estado</p>
+            </section>
+        </div>
+    </section>
+
+    <footer>
+        <div>
+            <ul class="navegacion-principal">
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+                <li><a href="#resenas">Reseñas</a></li>
+            </ul>
+        </div>
+
+        <div>
+            <P>Todos los derechos reservados. Libros nuevos-usados</P>
+        </div>
+    </footer>
+</body>
+
+</html>
