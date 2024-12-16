@@ -4,11 +4,27 @@
     box-sizing: border-box;
   }
 
+/* sugerencia del profe */
+/* html {
+    scroll-behavior: smooth;
+}
+.imagen {
+     height: 500px;
+}
+.resenas {
+     padding: 0 15% 50px; (valores sugeridos)
+}
+main {
+    padding: 0 15%; (valores sugeridos)
+} */
+
+
 body {
     font-family: "Delius", cursive;
     /* background: linear-gradient(170deg, orange, pink); */
 } 
 
+.carrito,
 .header, 
 .contacto,
 .resenas,
@@ -249,4 +265,14 @@ footer {
 footer p {
     font-size: 1.2rem;
     padding: 1rem;
+}
+
+.info {
+    margin-top: 1rem;
+    background-color: orange;
+    border: solid black 1px;
+}
+
+.agregarCarrito {
+    margin-bottom: 1.5rem;
 }
